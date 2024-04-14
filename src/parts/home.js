@@ -3,11 +3,11 @@ import Header from "./header";
 import Section from "./section";
 import Footer from "./footer";
 
-function Home({ imgs }) {
+function Home({ cardData }) {
     return (
         <>
-            <Header imgs={imgs} />
-            <Section />
+            <Header/>
+            <Section cardData={cardData}/>
             <Footer />
         </>
     );

@@ -4,12 +4,12 @@ import Home from "./home";
 import Nav from "../components/nav";
 import SearchPage from "./search-page";
 
-function RouterPart({ imgs }) {
+function RouterPart({ cardData, }) {
     return (
         <Router>
             <Nav/>
             <Routes>
-                <Route path="/" exact element={<Home imgs={imgs} />}/>
+                <Route path="/" exact element={<Home cardData={cardData} />}/>
                 <Route path="/search" element={<SearchPage />}/>
             </Routes>
         </Router>
