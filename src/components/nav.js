@@ -1,20 +1,42 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import logo from "../images/logo.png";
 import { Link } from "react-router-dom";
+import {useCart} from "react-use-cart";
 
 function Nav() {
+
+    const [cartLength, setCartLength] = useState(0)
+
+    const {
+        isEmpty,
+        totalUniqueItems,
+        items,
+        updateItemQuantity,
+        removeItem,
+    } = useCart();
+    useEffect(() => {
+        setCartLength(totalUniqueItems);
+    }, [items]);
+
     return (
         <nav>
-            <div className="container nav-container">
-                <img src={logo} alt="" className="logo"/>
-                <ul className="nav-ul">
-                    <Link to="/" className="nav-link">Home</Link>
-                    <Link to="/products" className="nav-link">Products</Link>
-                    <Link to="/about" className="nav-link">About Us</Link>
-                    <Link to="/contact" className="nav-link">Contact</Link>
-                    <Link to="/search" className="cart-btn"><i className="bi bi-search"></i></Link>
-                    <Link to="/cart" className="cart-btn"><i className="bi bi-basket"></i></Link>
-                </ul>
+            <div className="container-fluid">
+                <div className="row justify-content-center">
+                    <div className="col-sm-10 col-md-9 col-lg-8 col-xl-7 nav-container">
+                        <img src={logo} alt="" className="logo"/>
+                        <ul className="nav-ul">
+                            <Link to="/cart" className="cart-btn">
+                                <i className="bi bi-basket"></i>
+                                {
+                                    cartLength?
+                                        <div className="my-badge">
+                                            {cartLength}
+                                        </div>: null
+                                }
+                            </Link>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </nav>
     );

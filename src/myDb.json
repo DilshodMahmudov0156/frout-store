@@ -1,0 +1,85 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "url": "https://firebasestorage.googleapis.com/v0/b/fruits-a13b6.appspot.com/o/fruits%2Fphoto.png?alt=media&token=c6f5a3ec-dc1f-4f3d-9111-c4480f7b7079",
+      "title": "Cherry",
+      "description": "Lorem ipsum dolor set amet",
+      "price": 10,
+      "quantity": 0
+    },
+    {
+      "id": "2",
+      "url": "https://firebasestorage.googleapis.com/v0/b/fruits-a13b6.appspot.com/o/fruits%2F34b71927459732712524ff0bf061c734.png?alt=media&token=828f8d9a-e0de-44b9-8902-7483956c9116",
+      "title": "Apple",
+      "description": "Lorem ipsum dolor set amet",
+      "price": 12,
+      "quantity": 0
+    },
+    {
+      "id": "3",
+      "url": "https://firebasestorage.googleapis.com/v0/b/fruits-a13b6.appspot.com/o/fruits%2Felma-golden-6FB86-500x500-1.png?alt=media&token=a8c02cec-80a7-46bc-ada8-abbd35de9b9d",
+      "title": "Apple Golden",
+      "description": "Lorem ipsum dolor set amet",
+      "price": 25,
+      "quantity": 0
+    },
+    {
+      "id": "4",
+      "url": "https://firebasestorage.googleapis.com/v0/b/fruits-a13b6.appspot.com/o/fruits%2Ffruits-orange.png?alt=media&token=cf468d12-8980-4252-b058-2a0158220108",
+      "title": "Orange",
+      "description": "Lorem ipsum dolor set amet",
+      "price": 24,
+      "quantity": 0
+    },
+    {
+      "id": "5",
+      "url": "https://firebasestorage.googleapis.com/v0/b/fruits-a13b6.appspot.com/o/fruits%2Fcocco.png?alt=media&token=fba4275b-a35b-48c4-8f6e-f9b36b10dc92",
+      "title": "Coconut",
+      "description": "Lorem ipsum dolor set amet",
+      "price": 10,
+      "quantity": 0
+    },
+    {
+      "id": "6",
+      "url": "https://firebasestorage.googleapis.com/v0/b/fruits-a13b6.appspot.com/o/fruits%2F47208-cut-smoothie-juice-fruit-pineapple-vegetable.png?alt=media&token=ea963188-d91a-4ad8-8d87-42720278cd26",
+      "title": "Pineapple",
+      "description": "Lorem ipsum dolor set amet",
+      "price": 12,
+      "quantity": 0
+    },
+    {
+      "id": "7",
+      "url": "https://firebasestorage.googleapis.com/v0/b/fruits-a13b6.appspot.com/o/fruits%2F13a.png?alt=media&token=32dd4e8c-6571-49e6-a5b1-7d1b003e6b1f",
+      "title": "Melon",
+      "description": "Lorem ipsum dolor set amet",
+      "price": 28,
+      "quantity": 0
+    },
+    {
+      "id": "8",
+      "url": "https://firebasestorage.googleapis.com/v0/b/fruits-a13b6.appspot.com/o/fruits%2F1.png?alt=media&token=00568256-cd68-42fc-897c-6edf514e5869",
+      "title": "Watermelon",
+      "description": "Lorem ipsum dolor set amet",
+      "price": 41,
+      "quantity": 0
+    },
+    {
+      "id": "9",
+      "url": "https://firebasestorage.googleapis.com/v0/b/fruits-a13b6.appspot.com/o/fruits%2Fefb877441ca3e7f2ad80109330c4dd6f.png?alt=media&token=b6e338d8-3c97-4ee0-ba2b-b5f181a145f4",
+      "title": "Banana",
+      "description": "Lorem ipsum dolor set amet",
+      "price": 35,
+      "quantity": 0
+    },
+    {
+      "id": "10",
+      "url": "https://firebasestorage.googleapis.com/v0/b/fruits-a13b6.appspot.com/o/fruits%2Fstrawberries-clipart-round-fruit-4.png?alt=media&token=db3311f4-b3b3-46b5-8313-060fbc4194ba",
+      "title": "Strawberry",
+      "description": "Lorem ipsum dolor set amet",
+      "price": 37,
+      "quantity": 0
+    }
+
+  ]
+}
